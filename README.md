@@ -28,7 +28,7 @@ Overall
 
 # Source of the dataset is as below:-
 https://www.kaggle.com/jessicali9530/celeba-dataset
-6. listattrceleba.csv: Attribute labels for each image. There are 40 attributes. "1" represents positive while "-1" represents negative
+
 
 # Acknowledgements
 
