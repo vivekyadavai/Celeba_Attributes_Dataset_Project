@@ -3,17 +3,18 @@
 <!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
   <meta charset="UTF-8">
-  <title>Celeba Prediction</title>
+  <title>ML API</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1YYswKXKxrqlmbJI8YnKjcCPcwTIRBwWlFw&usqp=CAU" > 
+<img src = "https://www.spjain.sg/hs-fs/hubfs/images/2019/org/maib/sp-jain-master-of-artificial-intelligence-in-business.jpg?width=1920&height=500&name=sp-jain-master-of-artificial-intelligence-in-business.jpg" width = 1300, height =300>
+
 </head>
 
-<body>
+<body background = "https://png.pngtree.com/thumb_back/fh260/back_our/20190628/ourmid/pngtree-leather-texture-background-picture-image_265098.jpg">
  <div class="login">
-	<h1>Predict Pale_Skin & Smiling Of The Celeba Attributes Dataset </h1>
+	<h1>Predict The Value Of "Pale_Skin" & "Smilling" Of Celeba Faces Attributes [CelebA] Dataset</h1>
     <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="lefteye_x" placeholder="Lefteye_X" required="required" />
